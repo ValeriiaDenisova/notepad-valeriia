@@ -27,9 +27,9 @@
 	</properties>
 
 	<scm>
-		<connection>scm:git:git@github.com:jorgeacetozi/notepad.git</connection>
-		<developerConnection>scm:git:git@github.com:jorgeacetozi/notepad.git</developerConnection>
-		<url>scm:git:git@github.com:jorgeacetozi/notepad.git</url>
+		<connection>scm:https://github.com/ValeriiaDenisova/notepad-valeriia.git</connection>
+		<developerConnection>scm:https://github.com/ValeriiaDenisova/notepad-valeriia.git</developerConnection>
+		<url>scm:https://github.com/ValeriiaDenisova/notepad-valeriia.git</url>
 		<tag>notepad-1.0.0</tag>
 	</scm>
 
