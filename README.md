@@ -7,6 +7,9 @@ This simple application is used for demo purposes. It exposes the `actuator` end
 The Notepad stores the notes in a MySQL instance, so it expects the MySQL database to be up and running. The bellow command starts a MySQL container with a newly created database `notepad` in it. It also sets up the mysql root password as `root`.
 
 `$ docker run -d --name mysql -e MYSQL_DATABASE=notepad -e MYSQL_ROOT_PASSWORD=root -p 3306:3306 mysql:5.7`
+`$ docker container run -d --name selenium-hub -p 4444:4444 selenium/hub:3.4.0`
+`$ docker container run -d --name chrome -e HUB_PORT_4444_TCP_ADDR=selenium-hub -e HUB_PORT_4444_TCP_PORT=4444 -e DISPLAY=99.0 -e SE_OPTS="-port 5556" --link selenium-hub:selenium-hub selenium/node-chrome:3.4.0 `
+`$ docker container run -d --name firefox -e HUB_PORT_4444_TCP_ADDR=selenium-hub -e HUB_PORT_4444_TCP_PORT=4444 -e DISPLAY=98.0 -e SE_OPTS="-port 5557" --link selenium-hub:selenium-hub selenium/node-firefox:3.4.0 `
 
 Now, clone this repository and go into the notepad directory:
 
