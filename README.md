@@ -16,6 +16,8 @@ Now, clone this repository and go into the notepad directory:
 `$ git clone https://github.com/jorgeacetozi/notepad.git`
 `$ cd notepad`
 
+5th commit
+
 Once you succesfully cloned the repository, start the application the jar artifact:
 
 `$ mvn clean install`
