@@ -11,7 +11,6 @@ The Notepad stores the notes in a MySQL instance, so it expects the MySQL databa
 `$ docker container run -d --name chrome -e HUB_PORT_4444_TCP_ADDR=selenium-hub -e HUB_PORT_4444_TCP_PORT=4444 -e DISPLAY=99.0 -e SE_OPTS="-port 5556" --link selenium-hub:selenium-hub selenium/node-chrome:3.4.0 `
 `$ docker container run -d --name firefox -e HUB_PORT_4444_TCP_ADDR=selenium-hub -e HUB_PORT_4444_TCP_PORT=4444 -e DISPLAY=98.0 -e SE_OPTS="-port 5557" --link selenium-hub:selenium-hub selenium/node-firefox:3.4.0 `
 
-
 Now, clone this repository and go into the notepad directory:
 
 `$ git clone https://github.com/jorgeacetozi/notepad.git`
