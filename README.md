@@ -14,6 +14,7 @@ The Notepad stores the notes in a MySQL instance, so it expects the MySQL databa
 Now, clone this repository and go into the notepad directory:
 
 Third commit
+forth commit
 `$ git clone https://github.com/jorgeacetozi/notepad.git`
 `$ cd notepad`
 
