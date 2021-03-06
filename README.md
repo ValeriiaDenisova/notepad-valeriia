@@ -15,6 +15,7 @@ Now, clone this repository and go into the notepad directory:
 
 Third commit
 forth commit
+Release 0.1.0
 `$ git clone https://github.com/jorgeacetozi/notepad.git`
 `$ cd notepad`
 
